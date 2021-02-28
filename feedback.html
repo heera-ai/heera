@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<style>
+    *{
+        background-color: rgb(177, 233, 207);
+    }
+    header{
+        border: 2px red solid;
+        background-color: rgb(203, 157, 241);
+        border-radius: 50px;
+        margin: 20px;
+        padding: 5px;
+        text-align: center;
+        color: blue;
+    }
+    form{
+        background-color: silver;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 10px;
+        border: 2px red solid;
+        text-align: center;
+    }
+</style>
+<body>
+    <header>Feedback Form</header>
+    <form action="feedback.php">
+        Enter your name: <input type="text"><br><br>
+        Enter your email: <input type="email" name="Email" id=""><br><br>
+        Enter your contact number: <input type="text"><br><br>
+        Choose your DOB: <input type="date" name="date" id=""><br><br>
+        Rate this page (out of 5) : <input type="number" name="rating" id="" min="1" max="5"><br><br>
+        <button type="submit">Sumit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
